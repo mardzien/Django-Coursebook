@@ -126,3 +126,4 @@ EMAIL_HOST_USER = 'mardzien@gmail.com'
 EMAIL_HOST_PASSWORD = 'Fg=GMm/r^2'
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
+EMAIL_USE_SSL = False

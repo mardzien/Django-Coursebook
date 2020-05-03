@@ -5,7 +5,7 @@
 {% block content %}
     {% if sent %}
     <h1>Wiadomość e-mail została wysłana</h1>
-    <p> Wysłanie posta "{{ post.title }}" do {{ cd.to }} zakończyło się sukcesem.</p>
+    <p> Wysłanie posta "{{ post.title }}" przez {{ cd.email }} do {{ cd.to }} zakończyło się sukcesem.</p>
     {% else %}
          <h1>Udostępnij "{{ post.title }}" przez e-mail</h1>
          <form action="." method="post">
