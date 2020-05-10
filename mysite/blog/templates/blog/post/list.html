@@ -1,6 +1,7 @@
 {% extends "blog/base.html" %}
 {% block title %}Mój blog{% endblock %}
 {% block content %}
+{% load blog_tags %}
  <h1>Mój blog</h1>
  {% if tag %}
   <h2>Posty oznaczone tagiem "{{ tag.name }}"</h2>
